@@ -1,0 +1,521 @@
+/********************************************/
+/************** Style général Amine Ammar****************/
+/********************************************/
+
+body {
+	background-color : white; 
+}
+/***************************************Logo******************/
+header { 
+	height: 200px;
+	width : 1000px;
+	text-align: center;
+	padding : 0px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom: 0px;
+	background: url(ensma1.png) no-repeat center;
+	background-size: contain; /*taille de l'image du logo contain pour être automatiquement adaptée à la taille du header, auto sa taille réelle*/
+} 
+/***************************************Menu Nav*****************/
+/*menu horizontal*/
+
+nav {
+	height : 120%; /*hauteur du contenu nav comme élément*/
+	margin-top : 0px;
+	margin-right : 40px;
+	list-style : none;
+	text-align : center;
+}
+nav li {
+	list-style : none;
+	display: inline-flex; /*pour disposer les liens du menu en ligne*/
+	margin-top : 15px; /*marge entre les liens si position en verticale*/
+	margin-left : 20px;
+	margin-right : 20px;
+	text-align : center; /*pour aligner le texte à l'intérieur des boutons de menu*/
+}
+
+
+nav li a {
+	background: #ECF5FB ; /* ##E3EAEF bleu très clair #ECF5FB bleu bien plus clair*/
+	font: 20px "Trebuchet MS",Arial,sans-serif ;
+	width: 200px; /*largeur uniforme des boutons du menu*/
+	height : 50px;
+	padding-top : 20px;
+	padding-bottom : 0px;
+	margin-left : auto;
+	margin-right : auto;
+	text-decoration: none; /*pour ne pas avoir des liens sous-lignés*/
+	border: 1px solid #95B3C8;	/*#5F097C mauve ensam #5B0A77; mauve foncé*/
+    border-radius: 5px;
+	box-shadow: 5px 5px 5px #DBD7DC;
+}
+
+nav li a:hover {
+	background: #F9C352 ; /*fond des boutons au survol*/
+	border: 0px;
+}
+
+nav li a:visited {
+	color : #387BAA
+}
+
+/************************************************************/
+/************** liens ************/
+/************************************************************/
+a { text-decoration: none; }
+
+a:link { color:  #387BAA; }   	/* #387BAA bleu moyen*/		
+
+a:visited { color:  #387BAA; } 			
+
+a:hover { color: #F5B041; /*orange clair #F5B041*/ } 
+
+/***********************************************************/
+section
+{
+    margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+/*************** Contenu accueil : transparent**********************/
+.contenuHome {		
+	padding : 0 ;
+	width: 80%;
+	margin-top : auto;
+	margin-left: auto;	
+	margin-right: auto;
+	border: 1px solid #F1E9D2; /*marron clair*/	
+	background: url(../images/fond.jpg);
+	background-size: contain;
+}
+
+
+
+/*********** fin contenu accueil *****/
+.contenu {		
+	padding : 0 ;
+	width: 80%;
+	margin-top : auto;
+	margin-left: auto;	
+	margin-right: auto;
+	border: 1px solid #CDD8E0; 
+	background-color : #FBFBFB; /* F7F9FB bleu gris très très clair */
+    border-radius: 10px;
+	box-shadow: 10px 10px 12px #C9D6DF; :/*orientation ombre selon axe des x - selon axe y- valeur de flou- couleur de l'ombre */
+}
+.contenu p { 
+	text-indent: 10px;
+}
+p { 
+	font: normal 14px "Trebuchet MS", tahoma, verdana, sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	line-height: 200%;		/*interligne*/
+	text-align: justify;
+}
+
+h2 { 
+	padding-left: 50px;		/*espacement à gauche suffisant pour l'image*/
+	padding-right : 20px; /*pour que l'ecriture arabe s'éloigne un peu de la bordure de droite*/
+	line-height: 250%;		/*hauteur de la ligne assez grande pour afficher l'image*/
+	font: normal 30px "Trebuchet MS", tahoma, verdana, sans-serif;
+	color: #05406A;			/*#085E9B bleu moyen #05406A bleu foncé #4C0863 bleu moyen*/
+	text-align: center;
+} 
+h3 {
+	margin-left: 15px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	margin-right: 10px;
+	font: normal 25px "Trebuchet MS", tahoma, verdana, sans-serif;
+	color:#05406A;  /*#085E9B bleu moyen #05406A bleu foncé #4C0863 bleu moyen*/
+	text-align: justify;
+}
+h4 {
+	margin-left: 25px;
+	margin-bottom: 25px;	/*pour espacer verticalement entre les images icônes*/
+	padding-left: 20px;
+	margin-right: 10px;
+	font: normal 16px "Trebuchet MS", tahoma, verdana, sans-serif;
+	text-align: justify;
+	color:#AA044A; /* #AA044A mauve */
+	text-align: justify;
+}
+.centrer {
+	text-align : center;
+	padding-bottom: 15px;
+	margin-right : 15px;
+}
+.centrer img {
+  max-width: 30%;
+  height: auto;
+}
+
+/* pour placer des liens sous formes de boxes*/
+.souscontenu {
+	display: flex;
+	flex-wrap : wrap;
+	justify-content: center;
+	padding : 0;
+	width: 90%;
+	margin-top : auto;
+	margin-bottom: 10px;
+	margin-left: auto;	
+	margin-right: auto;
+}
+.souscontenuBox {
+	padding : 0;
+	width: 400px;
+	height: auto;
+	margin-top : 30px;
+	margin-bottom: 20px;
+	margin-left: 10px;	
+	margin-right: 10px;
+	border: 1px solid #93AEC0;	/* #93AEC0 bleu */
+	background-color : #F7FBFE; /* #F4FAFE bleu gris clair */
+    border-radius: 5px;
+	box-shadow: 5px 0px 10px grey; /*orientation ombre selon axe des x - selon axe y- valeur de flou- couleur de l'ombre */
+}
+/*************** mise en forme images ****/
+.border_picture {
+    border: 1px;
+}
+/************************************************************/
+/************** mises en formes et couleurs ************/
+/************************************************************/
+
+.grasbleu {
+	font-weight : bold;
+	color : #3157A6;
+}
+
+.gras {
+	font-weight : bold;
+}
+
+.important {
+	font-weight : bold;
+	color : #913304;
+}
+
+.publication {
+  font-style: italic;
+  color : #770334;
+}
+
+
+.grasrouge {
+	font-weight : bold;
+	color : #B9140C;
+}
+.rouge {
+	color : #B9140C;
+}
+
+.message {
+	font-weight : bold;
+	text-align: center;
+}
+
+
+
+.rosegras {
+  font-weight : bold;
+  color : #cc66cc;
+}
+
+.rosegrand {
+  color : #cc66cc;
+  font-weight : bold;
+  font-size : 150%;
+}
+.violet {
+  color : #9933cc;
+}
+
+.violetgras {
+  color : #9933cc;
+  font-weight : bold;
+}
+
+.violetgrand {
+  color : #9933cc;
+  font-weight : bold;
+  font-size : 150%;
+}
+
+.vert {
+  color : #009933;
+}
+
+.vertgras {
+  color : #009933;
+  font-weight : bold;
+}
+
+.vertgrand {
+  color : #009933;
+  font-weight : bold;
+  font-size : 150%;
+}
+/************************************************************/
+/************** liste à puces ************/
+/************************************************************/
+
+li {
+font: normal 14px "Trebuchet MS", tahoma, verdana, sans-serif;
+text-align: justify;
+margin-left: 10px;
+margin-right : 20px;
+line-height : 200%;
+}
+/************************************************************/
+/************** Styles des icones ************/
+/************************************************************/
+a.pdf {
+    background: url(../images/icone_pdf.png) left center no-repeat;
+    padding-left: 40px;
+	font: normal 14px "Trebuchet MS", tahoma, verdana, sans-serif;
+}
+
+a.xls {
+    text-decoration: none;
+    background: url(../images/icone_xls.png) left center no-repeat;
+    padding-left: 40px;
+}
+
+a.mp3 {
+    text-decoration: none;
+    background: url(../images/icone_mp3.png) left center no-repeat;
+    padding-left: 40px;
+}
+
+a.print {
+    text-decoration: none;
+    background: url(../images/print.gif) left center no-repeat;
+    padding-left: 40px;
+}
+a:print.mp3 {
+    text-decoration: none;
+}
+
+/******************************************************************************/
+/***************************Bas de page Footer*********************************/
+/******************************************************************************/
+footer
+{
+    display: flex;
+    padding-top: 10px;
+}
+.baspage{
+clear : left;
+width:100%;
+margin-top: 1%;
+margin-left: auto;
+margin-right : auto;
+text-align : center;
+}
+
+h5{
+	color: #05406A; /* #05406A bleu foncé*/
+	font: normal 14px "Trebuchet MS", tahoma, Verdana, sans-serif;
+	padding-top: 7px;
+}
+.baspage h5 { 
+	text-align: center;
+} 
+/*pour le lecteur mp3*/
+figure {
+    margin: 0;
+}
+
+/***********************************************************************/
+/************************************Reponsive design*******************/
+/***********************************************************************/
+
+/*************style smartphones et petites tablettes en portrait***************/
+@media only screen (min-width: 321px) and (max-width: 799px){
+
+header { 
+	height: 100px;
+	width : 300px;
+	background-size: contain; /*taille de l'image du logo contain pour être automatiquement adaptée à la taille du header, auto sa taille réelle*/
+} 
+
+nav li {
+	display: flex; 
+	flex-direction : column; /*pour disposer les liens du menu en colonne*/
+	flex-wrap: wrap;
+	margin-top : 10px;
+}
+
+nav li a {
+	font-size: 20px; /*25*/
+	width : 70%; /*largeur des boutons des liens*/
+	height : 25px; /*30*/
+	padding-bottom : 15px; /*10*/
+}
+.contenuHome {		
+	width: 100%;
+}
+.contenu {		
+	width: 100%;
+}
+h2 { 
+	font-size:30px;
+}
+h4 {
+	font-size: 18px;
+} 
+p { 
+	font-size: 15px;
+}
+h5 { 
+	font-size:14px;
+}
+li {
+font-size:15px;
+} 
+
+}
+/**********************************************/
+
+@media only screen and (max-width: 600px) {
+
+header { 
+	height: 100px;
+	width : 300px;
+	background-size: contain;
+} 
+
+nav li {
+	display: flex; 
+	flex-direction : column; /*pour disposer les liens du menu en colonne*/
+	flex-wrap: wrap;
+	margin-top : 10px;
+}
+
+nav li a {
+	font-size: 20px;
+	width : 70%; /*largeur des boutons des liens*/
+	height : 25px;
+	padding-bottom : 15px;
+}
+.contenuHome {		
+	width: 100%;
+}
+.contenu {		
+	width: 100%;
+}
+h2 { 
+	font-size:30px;
+}
+h4 {
+	font-size: 18px;
+} 
+p { 
+	font-size: 15px;
+}
+h5 { 
+	font-size:14px;
+}
+li {
+font-size:15px;
+} 
+
+}
+
+/****************style petites-moyennes tablettes ***************/
+@media only screen and (min-width: 800px) and (max-width: 966px){
+
+header { 
+	height: 100px;
+	width : 300px;
+	background-size: contain;
+} 
+
+nav li {
+	display: flex; 
+	flex-direction : column; /*pour disposer les liens du menu en colonne*/
+	flex-wrap: wrap;
+	margin-top : 10px;
+}
+ 
+nav li a {
+	font-size: 20px; /*25px*/
+	width : 70%; /*largeur des boutons des liens du menu*/
+	height : 25px; /*30px*/
+	padding-bottom : 15px;
+}
+.contenuHome {		
+	width: 100%;
+}
+.contenu {		
+	width: 100%;
+}
+h2 { 
+	font-size:30px;
+} 
+h4 {
+	font-size: 18px;
+}
+
+p { 
+	font-size: 15px;
+}
+h5 { 
+	font-size:14px;
+}
+li {
+font-size:15px;
+} 
+
+}
+/*******Pour les smartphones ****************/
+@media all and (max-device-width: 480px){
+
+header { 
+	height: 100px;
+	width : 300px;
+	background-size: contain;
+} 
+
+nav li {
+	display: flex; 
+	flex-direction : column; /*pour disposer les liens du menu en colonne*/
+	flex-wrap: wrap;
+	margin-top : 10px;
+}
+ 
+nav li a {
+	font-size: 20px;
+	width : 70%; /*largeur des boutons des liens du menu*/
+	height : 25px;
+	padding-bottom : 15px;
+}
+.contenuHome {		
+	width: 100%;
+}
+.contenu {		
+	width: 100%;
+}
+h2 { 
+	font-size:30px;
+} 
+h4 {
+	font-size: 18px;
+}
+
+p { 
+	font-size: 15px;
+}
+h5 { 
+	font-size:14px;
+}
+li {
+font-size:15px;
+} 
+}
