@@ -3,7 +3,7 @@
 /********************************************/
 
 body {
-	background-color : white; 
+	background-color : white;
 }
 /***************************************Logo******************/
 .header {
@@ -11,17 +11,19 @@ body {
   background-color: white/*#F0FFF0;*/
   padding: 10px 10px;
   text-align : center;
-  margin-bottom: -180px; 
+  margin-bottom: -50px; 
   font-family: cursive;
-  font-size: 120%
+
+
+  /*font-size: 120%
 }
 
-/*bouger la photo en coin*/
+/*bouger la photo en coin
 .ribbon {
    position: relative;
    top: -95px;
    right: 850px;
-}
+}*/
 /*header { 
 	height: 20px;
 	width : 1000px;
