@@ -13,6 +13,7 @@ body {
   text-align : center;
   margin-bottom: -50px; 
   font-family: cursive;
+  background-size: contain;
 
 }
   /*font-size: 120%
