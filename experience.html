@@ -17,7 +17,21 @@
 
 <body>
 
-<header>
+<header class="header">
+  <h1>Bienvenue sur mon profil</h1>
+  	<style>
+    .content {
+        position: relative;
+    }
+    .content img {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+	</style>
+	<div id="content">
+    <img src="cplusplus2.png" height="120" width="120" class="ribbon"/>
+	</div>
 </header>
 
 <!--Menu haut de page-->
@@ -27,7 +41,7 @@
 		<li><a href="index.html">Accueil</a></li>
 		<li><a href="competences.html">Compétences</a></li>
 		<li><a href="experience.html">Expériences</a></li>
-		<li><a href="publications.html">Publications</a></li>
+		<li><a href="enseignement.html">Enseignements</a></li>
 	</ul>
 </nav><!--Fin du menu haut de page-->
 
@@ -35,9 +49,9 @@
 	
 	<div class="contenu">
 	<h2>Mes Expériences Professionelles</h2>
-	<h3>Postdoctorat (prévisionnel 15 mois) : Étude de milieux fibreux/poreux par des algorithmes de deep
-		learning dans le domaine de la mécanique des fluides (Institut Carnot M.I.N.E.S, École des Mines de
+	<h3>Postdoctorat (prévisionnel 15 mois): Institut Carnot M.I.N.E.S, École des Mines de
 		Saint-Étienne avec séjour au CEMEF (Mines ParisTech) Sophia Antipolis)</h3>
+		<h4>Sujet: Étude de milieux fibreux/poreux par des algorithmes de deep learning dans le domaine de la mécanique des fluides</h4>
 		<ul>
 		<li>Objectif : Obtenir une meilleure caractérisation des structures poreuses au moyen de champs aléatoires en utilisant les progrès de l’Intelligence Artificielle, du calcul intensif et des mathématiques de l’aléa.</li>
 		<li>Application de l’apprentissage automatique (machine learning ) autour d’un procédé de fabrication de structures composites par infusion permettant de faire le lien entre des observations macroscopiques et la microstructure fibreuse du composites.</li>
@@ -47,36 +61,19 @@
 		<li>Développement d’un chaînage allant du modèle statistique à l’exploitation des données en passant par le calcul éléments finis dans un cadre de calcul intensif.</li>
 		</ul>
 
-		<p>
-		En continuité avec mes travaux de thèse sur la contribution à la simulation de 
-		la mise en forme des thermoplastiques par injection, j'ai poursuivi ma recherche 
-		au LMT de Cachan avec A. Poitou sur des aspects théoriques relatifs aux développement 
-		de modèles basées sur des concepts thermodynamiques pour décrire la cristallisation 
-		de polymère induite par son écoulement. De plus, j'ai travaillé également sur un 
-		concept formel pour la description du comportement viscoélastique des polymères 
-		pour décrire le couplage entre le comportement et les différents aspects physiques.	
-		</p>
-		
 		<!--
 		<div class="centrer">
 		<video controls width="300" src="ATT34266.mp4">Ici la description alternative</video>
 		</div>
-		!-->
+		!-->	
 		
-		<p>
-		J'ai participé à la mise en place d'<span class="important">un code de calcul</span> 
-		pour la simulation de la mise en forme des polymères fondus. Les difficultés résolues ici 
-		ont porté essentiellement sur des aspects numériques et sur la mise en place d'algorithmes 
-		pour traiter des problèmes dans lesquels interviennent de nombreux mécanismes physiques 
-		et couplages. 
-		</p>
-		
+		<!--
 		<p>
 		J'ai effectué également une collaboration avec L. Vito de la société Solvay 
 		en Belgique et G. Regnier du laboratoire LTVP de l'ENSAM Paris sur des aspects plus 
 		appliqués de la mise en forme par injection et les déformées résiduelles. 
 		C'est un travail que j'ai effectué tout en encadrant une équipe d'élèves ingénieurs de l'ENSAM.
-		</p>
+		</p>!-->
 	
 	
 	<h3>Développeur cœur d’application sauvegarde, stockage et cloud big data( Consultant , chez ATEMPO)</h3>
@@ -90,15 +87,16 @@
 		</ul>
 		
 		
-	<h3>Doctorat : Mécanique Des Solides, des Matériaux, Des Structures et des Surfaces , Institut Pprime,
-	ISAE-ENSMA</h3>
+	<h3>Doctorat : Modélisation Mathématique et Développement Informatique , Institut Pprime,
+		<h4>Sujet: Modélisation non-locale et stochastique de matériaux à fort gradient de propriétéspar développement asymptotique </h3>
 		<ul>
-		<li>La sauvegarde et la restauration des données essentielles.</li>
-		<li>Concevoir des architectures d’infrastructure sur Cloud.</li>
-		<li>Intégrer l’Intelligence Artificielle (IA) dans le service Cloud.</li>
-		<li>Description probabiliste et numérique de milieux poreux aléatoires.</li>
-		<li>Résolution du problème inverse; Forward problem & Inverse problem.</li>
-		<li>Gestion de projet : Scrum, JIRA, Confluence.</li>
+		<li>Développer un modèle d’homogénéisation asymptotique.</li>
+		<li>Développement des modèles mathématiques et mise en place de schémas numériques.</li>
+		<li>Développement et implémentation d’un élément fini non-local enrichi de Type Hermite.</li>
+		<li>Forte connaissance en analyse et simulations numériques (Abaqus).</li>
+		<li>Forte connaissance en méthodes d’homogénéisation et la modélisation non-locale.</li>
+		<li>Utilisation de l’outil Gamma-convergence dans un cadre stochastique pour une transition vers unelimite.</li>
+		<li>Post-traitement et visualisation 3D des résultats des simulations numériques (ParaView et Abaqus).</li>
 		</ul>
 	</div>
 
@@ -106,8 +104,8 @@
  
 <footer>
 	<div class="baspage">
-	<h5>&copy; <a href="http://www.amineammar.com" onclick="javascript:window.open(this.href);return(false);">
-		www.amineammar.com</a> 2021
+	<h5>&copy; <a href="https://samiben91.github.io/samibenelhajsalah/" onclick="javascript:window.open(this.href);return(false);">
+		www.samibenelhajsalah.com</a> 2021
 	</h5>
 	</div>
 </footer>

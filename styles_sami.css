@@ -6,19 +6,40 @@ body {
 	background-color : white; 
 }
 /***************************************Logo******************/
-header { 
-	height: 200px;
+.header {
+  overflow: hidden;
+  background-color: white/*#F0FFF0;*/
+  padding: 10px 10px;
+  text-align : center;
+  margin-bottom: -180px; 
+  font-family: cursive;
+  font-size: 120%
+}
+
+/*bouger la photo en coin*/
+.ribbon {
+   position: relative;
+   top: -95px;
+   right: 850px;
+}
+/*header { 
+	height: 20px;
 	width : 1000px;
 	text-align: center;
 	padding : 0px;
 	margin-left : auto;
 	margin-right : auto;
 	margin-bottom: 0px;
-	background: url(ensma1.png) no-repeat center;
+	/*background: url(ensma.png) no-repeat center;
 	background-size: contain; /*taille de l'image du logo contain pour être automatiquement adaptée à la taille du header, auto sa taille réelle*/
 } 
 /***************************************Menu Nav*****************/
 /*menu horizontal*/
+div maincontainer {
+    margin: 0 auto;
+    width: ___px;
+    text-align: center;
+}
 
 nav {
 	height : 120%; /*hauteur du contenu nav comme élément*/
@@ -87,7 +108,7 @@ section
 	margin-left: auto;	
 	margin-right: auto;
 	border: 1px solid #F1E9D2; /*marron clair*/	
-	background: url(../images/fond.jpg);
+	background-color: #191970;
 	background-size: contain;
 }
 
@@ -101,7 +122,7 @@ section
 	margin-left: auto;	
 	margin-right: auto;
 	border: 1px solid #CDD8E0; 
-	background-color : #FBFBFB; /* F7F9FB bleu gris très très clair */
+	background-color : #F7F9FB /*#F0FFF0; /* F7F9FB bleu gris très très clair */
     border-radius: 10px;
 	box-shadow: 10px 10px 12px #C9D6DF; :/*orientation ombre selon axe des x - selon axe y- valeur de flou- couleur de l'ombre */
 }
