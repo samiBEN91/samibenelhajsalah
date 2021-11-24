@@ -127,9 +127,22 @@ body {
 	background-color : white;
 }
 /***************************************Logo******************/
-.header {
+
+header { 
+	height: 140px;
+	width : 800px;
+	text-align: center;
+	padding : 0px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom: 0px;
+	background: url(entete.png) no-repeat center;
+	background-size: contain; /*taille de l'image du logo contain pour être automatiquement adaptée à la taille du header, auto sa taille réelle*/
+}
+
+/*.header {
   overflow: hidden;
-  background-color: white/*#F0FFF0;*/
+  background-color: white/*#F0FFF0;
   padding: 10px 10px;
   text-align : center;
   margin-bottom: 0px; 
@@ -138,7 +151,7 @@ body {
 
 
 
-}
+}*/
   /*font-size: 120%
 
 
