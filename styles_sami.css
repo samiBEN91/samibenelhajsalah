@@ -3,13 +3,14 @@
 /********************************************/
 h6{
 	margin-left: 15px;
-	margin-bottom: 10px;
+	margin-bottom: -20px;
+	margin-top: 10px;
 	padding-left: 5px;
 	margin-right: 10px;
 	font: normal 25px "Trebuchet MS", tahoma, verdana, sans-serif;
 	color:#05406A;  /*#085E9B bleu moyen #05406A bleu foncé #4C0863 bleu moyen*/
 	text-align: justify;
-	font-weight: 700;
+	/*font-weight: 700;
   	font-size: 20px;
   	font-family: Hack, sans-serif;
   	text-transform: uppercase;
@@ -21,7 +22,7 @@ h6{
   	background-repeat: no-repeat;
   	background-size: 80%;
   	animation: shine 10s linear infinite;
-  	position: relative;
+  	position: relative;*/
   }
 
 @keyframes shine {
