@@ -222,8 +222,8 @@ nav {
 nav li {
 	list-style : none;
 	display: inline-flex; /*pour disposer les liens du menu en ligne*/
-	margin-top : 15px; /*marge entre les liens si position en verticale*/
-	margin-left : 20px;
+	margin-top : 0px; /*marge entre les liens si position en verticale*/
+	margin-left : 70px;
 	margin-right : 20px;
 	text-align : center; /*pour aligner le texte à l'intérieur des boutons de menu*/
 }
@@ -319,10 +319,10 @@ h2 {
 } 
 h3 {
 	margin-left: 15px;
-	margin-bottom: 10px;
+	margin-bottom: -10px;
 	padding-left: 5px;
 	margin-right: 10px;
-	font: normal 25px "Trebuchet MS", tahoma, verdana, sans-serif;
+	font: normal 22px "Trebuchet MS", tahoma, verdana, sans-serif;
 	color:#05406A;  /*#085E9B bleu moyen #05406A bleu foncé #4C0863 bleu moyen*/
 	text-align: justify;
 }
@@ -350,6 +350,15 @@ h4 {
   text-align : center;
   max-width: 60%;
   height: auto;
+  }
+
+.img2 img{
+	max-width: 10%;
+	margin-left: -10px;
+	margin-bottom: -200px;
+	margin-top:-30px;
+	padding-left:1200px;
+	margin-right: 100px;
   }
 
 .imgentete img{
